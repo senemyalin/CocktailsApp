@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cocktails App</string>
+    <string name="error">Unknown Error Occurred</string>
+</resources>
