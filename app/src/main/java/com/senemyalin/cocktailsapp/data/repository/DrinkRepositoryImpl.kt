@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 class DrinkRepositoryImpl @Inject constructor(
     private val remoteDataSource: RemoteDataSource,
-    @IoDispatcher private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO,
+//    @IoDispatcher private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO,
     private val drinkListMapper: DrinkListMapper<Drink, DrinkEntity>
 
 ) :
