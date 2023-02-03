@@ -13,15 +13,12 @@ class FakeRemoteDataSource : RemoteDataSource {
         this.showError = showError
     }
 
-    override suspend fun getDrinksWithFirstLetter(firstLetter: String): NetworkResponse<List<Drink>> =
-        try {
-            NetworkResponse.Loading
-            if (showError) {
-                NetworkResponse.Error(apiException)
-            } else {
-                NetworkResponse.Success(cocktailList)
-            }
-        } finally {
-
+    override suspend fun getDrinksWithFirstLetter(firstLetter: String): NetworkResponse<List<Drink>> {
+        NetworkResponse.Loading
+        return if (showError.not()) {
+            NetworkResponse.Success(cocktailList)
+        } else {
+            NetworkResponse.Error(apiException)
         }
+    }
 }
