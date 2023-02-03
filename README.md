@@ -1,6 +1,12 @@
 # CocktailsApp
 
-<h3> Packages </h3>
+This is an application for the understanding about Clean Architecture and Kotlin technologys.
+
+<h3>Screens</h3> 
+
+<img src="https://imgyukle.com/f/2023/02/03/QPiNHj.png" width="30%" height="30%">      <img src="https://imgyukle.com/f/2023/02/03/QPiFK0.png" width="30%" height="30%">
+
+<h3> Packages </h3> 
 
 This project is an Android application with three layers: data, domain, and UI. It is structured into four packages:
 
