@@ -4,7 +4,7 @@ This is an application for the understanding about Clean Architecture and Kotlin
 
 <h3>Screens</h3> 
 
-<img src="https://imgyukle.com/f/2023/02/03/QPiNHj.png" width="30%" height="30%">      <img src="https://imgyukle.com/f/2023/02/03/QPiFK0.png" width="30%" height="30%">
+<img src="https://imgyukle.com/f/2023/02/03/QPi08h.png" width="30%" height="30%">      <img src="https://imgyukle.com/f/2023/02/03/QPiAEn.png" width="30%" height="30%">
 
 <h3> Packages </h3> 
 
